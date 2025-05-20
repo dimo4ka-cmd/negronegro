@@ -1,8 +1,8 @@
 # Конфиг бота
 
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  # Замените на токен от @BotFather
-CRYPTO_BOT_TOKEN = "YOUR_CRYPTO_BOT_TOKEN"  # Замените на токен от @CryptoBot
-ADMIN_ID = 123456789  # Замените на ваш Telegram ID (узнать через @userinfobot)
+TELEGRAM_TOKEN = "7757375496:AAHMv8T3jqMiPnsBIBJyimHDUPN1I7OytRQ"  # Замените на токен от @BotFather
+CRYPTO_BOT_TOKEN = "401820:AAMYBy2TCVxnHViC8wgft4KuEhGDa6VSiyB"  # Замените на токен от @CryptoBot
+ADMIN_ID = 7702253968 # Замените на ваш Telegram ID (узнать через @userinfobot)
 
 # Тарифы подписок
 SUBSCRIPTIONS = {
