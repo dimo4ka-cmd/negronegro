@@ -1,7 +1,9 @@
 import asyncio
 import logging
-from aiogram import Bot, Dispatcher
+from aiogram.bot import Bot  # Изменяем импорт
+from aiogram import Dispatcher
 from handlers import setup_handlers
+from database import init_db
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
@@ -10,6 +12,9 @@ logging.basicConfig(level=logging.INFO)
 from config import TELEGRAM_TOKEN
 bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher()
+
+# Инициализация базы данных
+init_db()
 
 # Настройка обработчиков
 setup_handlers(dp)
